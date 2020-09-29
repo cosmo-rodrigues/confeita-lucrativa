@@ -9,6 +9,13 @@
   font-weight: 800;
 }
 
+body {
+  align-content: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
 .center-content {
   margin: auto;
   width: 90%;
@@ -67,9 +74,8 @@ p {
   box-sizing: border-box;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
   height: 700px;
-  padding-top: 70px;
+  padding-top: 13%;
 }
 
 .sucesses-case aside {
@@ -176,13 +182,13 @@ p {
   }
 
   .sucesses-case .case-01 {
-    height: 75%;
+    height: 90%;
     margin-right: 5%;
   }
 
   .sucesses-case .case-01 img {
     max-height: 180px;
-    max-width: 180px;
+    max-width: 160px;
   }
 
   .text-content {
