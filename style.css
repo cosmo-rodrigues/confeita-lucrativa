@@ -27,13 +27,8 @@ body {
 }
 
 .hero {
-  align-content: center;
   align-items: center;
-  box-sizing: border-box;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  text-align: justify;
+  text-align: left;
   text-indent: 1.5rem;
 }
 
@@ -72,14 +67,10 @@ p {
 }
 
 .sucesses-case {
-  align-content: center;
-  align-items: center;
   background-repeat: no-repeat;
   background-size: 100% 900px;
-  box-sizing: border-box;
   display: flex;
   flex-flow: column nowrap;
-  height: 700px;
   padding-top: 13%;
 }
 
