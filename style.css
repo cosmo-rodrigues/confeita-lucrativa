@@ -11,7 +11,7 @@
 
 .center-content {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 
 .green-call {
@@ -20,6 +20,7 @@
 }
 
 .hero {
+  box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
   text-align: justify;
@@ -52,7 +53,7 @@ p {
   font-size: x-large;
   margin: auto;
   margin-bottom: 20px;
-  width: 80%;
+  width: 90%;
 }
 
 .red-call {
@@ -63,6 +64,7 @@ p {
 .sucesses-case {
   background-repeat: no-repeat;
   background-size: 100% 900px;
+  box-sizing: border-box;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -110,7 +112,7 @@ p {
 .text-content {
   margin: auto;
   margin-bottom: 20px;
-  width: 80%;
+  width: 90%;
 }
 
 .the-problem {
@@ -137,7 +139,7 @@ p {
   display: flex;
   margin: auto;
   margin-bottom: 10px;
-  width: 80%;
+  width: 90%;
 }
 
 .the-solution p:nth-of-type(1) {
