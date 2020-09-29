@@ -174,7 +174,7 @@ p {
     width: 36%;
   }
   .sucesses-case {
-    background-image: url(imgs/red-velvet-cake.jpeg);
+    background-image: url(./imgs/red-velvet-cake.jpeg);
     flex-flow: row;
   }
 
