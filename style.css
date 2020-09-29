@@ -13,7 +13,7 @@ body {
   align-content: center;
   display: flex;
   flex-flow: column nowrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .center-content {
@@ -27,9 +27,12 @@ body {
 }
 
 .hero {
+  align-content: center;
+  align-items: center;
   box-sizing: border-box;
   display: flex;
-  justify-content: flex-start;
+  flex-flow: column nowrap;
+  justify-content: space-around;
   text-align: justify;
   text-indent: 1.5rem;
 }
@@ -69,11 +72,13 @@ p {
 }
 
 .sucesses-case {
+  align-content: center;
+  align-items: center;
   background-repeat: no-repeat;
   background-size: 100% 900px;
   box-sizing: border-box;
   display: flex;
-  flex-flow: column;
+  flex-flow: column nowrap;
   height: 700px;
   padding-top: 13%;
 }
