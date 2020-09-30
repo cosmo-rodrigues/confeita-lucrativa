@@ -5,9 +5,24 @@
 }
 
 .busines-woman {
-  background-color: yellow;
+  background-color: red;
   text-align: center;
   width: 100%;
+}
+
+.busines-woman h1 {
+  font-size: 12vh;
+  margin: auto;
+}
+
+.busines-woman h2 {
+  color: white !important;
+  font-size: 4vh;
+  margin: auto;
+}
+
+.busines-woman span {
+  font-weight: 900;
 }
 
 .black-call {
@@ -31,6 +46,7 @@ body {
   color: rgb(36, 172, 36);
   font-weight: 800;
 }
+
 
 .hero {
   align-items: center;
@@ -78,7 +94,17 @@ p {
 }
 
 .statistics img {
+  border-radius: 40%;
+  min-height: 180px;
   max-width: 200px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  margin: 3% 0;
+}
+
+.statistics p:nth-child(1) {
+  margin-bottom: 5%;
 }
 
 .sucesses-case {
@@ -139,7 +165,6 @@ p {
 }
 
 .the-problem .img-content {
-  float: right;
   margin: auto;
   margin-bottom: 20px;
   width: 70%;
@@ -184,6 +209,7 @@ p {
   width: 100%;
 }
 
+ /* View port break point */
 @media screen and (min-width: 769px) {
   .img-content {
     float: right;
@@ -191,6 +217,26 @@ p {
     margin-right: 5%;
     width: 36%;
   }
+
+  .statistics {
+    flex-flow: row;
+  }
+
+  .statistics aside {
+    align-content: center;
+    align-items: center;
+    flex-flow: row-reverse;
+    justify-content: center;
+    padding: 0 2% 2% 2%;
+    width: 90%;
+  }
+
+  .statistics p {
+    margin-left: 4%;
+    max-width: 70%;
+    text-align: justify;
+  }
+
   .sucesses-case {
     background-image: url(./imgs/red-velvet-cake.jpeg);
     flex-flow: row;
@@ -198,11 +244,10 @@ p {
 
   .sucesses-case aside {
     background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 6%, rgba(254,176,176,1) 100%);
     border-radius: 30px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     margin: auto;
     padding: 0 12px 15px 12px;
     width: 70%;
@@ -238,5 +283,19 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     margin: auto;
     margin-top: 15px;
     width: 100%;
+  }
+
+  .the-problem .img-content {
+    display: block;
+    float: right;
+    margin: 2% 8% 2% 0;
+    width: 35%;
+  }
+  
+  .the-problem .text-content {
+    display: block;
+    float: left;
+    margin: 4% 0 5% 8%;
+    width: 45%;
   }
 }
