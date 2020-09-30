@@ -5,7 +5,7 @@
 }
 
 .busines-woman {
-  background-color: red;
+  background-color: black;
   text-align: center;
   width: 100%;
 }
@@ -13,6 +13,9 @@
 .busines-woman h1 {
   font-size: 12vh;
   margin: auto;
+  background: url('https://lh3.googleusercontent.com/proxy/5lDDB_iRhgziLIgoBnQ7j5o-WBKwFMQyCD0s4EYyvGSNadcYlMm0CE7yphy-iUXVw25kzOPev3hgK-t2RiLe2_HwgKwm3aQohGSSwYB8Z1fDJh3cWfCD4KwjX_1LQ8I7sPuGGHwRYYU4mZrT6breIkHfcWM');
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .busines-woman h2 {
@@ -52,6 +55,23 @@ body {
   align-items: center;
   text-align: left;
   text-indent: 1.5rem;
+}
+
+.impact-news {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.impact-news aside {
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  text-align: justify;
+  width: 90%;
 }
 
 .important {
