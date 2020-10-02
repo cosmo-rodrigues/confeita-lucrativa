@@ -67,6 +67,7 @@ body {
 }
 
 .impact-news aside {
+  align-content: center;
   align-items: center;
   display: flex;
   flex-flow: column;
@@ -91,6 +92,13 @@ body {
 
 .impact-news img {
   width: 100%;
+}
+
+.impact-news .news-content {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
 }
 
 .important {
