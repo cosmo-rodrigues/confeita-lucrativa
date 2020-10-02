@@ -13,7 +13,7 @@
 .busines-woman h1 {
   font-size: 12vh;
   margin: auto;
-  background: url('https://lh3.googleusercontent.com/proxy/5lDDB_iRhgziLIgoBnQ7j5o-WBKwFMQyCD0s4EYyvGSNadcYlMm0CE7yphy-iUXVw25kzOPev3hgK-t2RiLe2_HwgKwm3aQohGSSwYB8Z1fDJh3cWfCD4KwjX_1LQ8I7sPuGGHwRYYU4mZrT6breIkHfcWM');
+  background: url('./imgs/diverse-women.jpeg');
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -72,6 +72,25 @@ body {
   flex-flow: column;
   text-align: justify;
   width: 90%;
+}
+
+.impact-news h1 {
+  color: black !important;
+  font-weight: 900;
+  margin: 2% auto 2% !important;
+  text-align: center;
+}
+
+.impact-news h2 {
+  font-weight: 800;
+}
+
+.impact-news h2, p {
+  margin: 3% 0;
+}
+
+.impact-news img {
+  width: 100%;
 }
 
 .important {
@@ -238,6 +257,43 @@ p {
     width: 36%;
   }
 
+  .impact-news  aside {
+    margin-top: 3%;
+    max-width: 70%;
+  }
+
+  .impact-news h2, h3, img, p {
+    margin: 1%;
+  }
+
+  .impact-news h2, h3 {
+    order: -1;
+  }
+
+  .impact-news h3 {
+    font-weight: 600;
+  }
+
+  .impact-news img {
+    order: 0;
+    max-width: 36%;
+  }
+
+  .impact-news p {
+    margin: 0;
+    padding-left: 12%;
+  }
+
+  .impact-news .news-content {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .news-content .news-text-content {
+    text-align: left;
+    width: 50%;
+  }
+
   .statistics {
     flex-flow: row;
   }
@@ -252,8 +308,7 @@ p {
   }
 
   .statistics p {
-    margin-left: 4%;
-    max-width: 70%;
+    width: 60%;
     text-align: justify;
   }
 
