@@ -29,7 +29,7 @@
 }
 
 .black-call {
-  color: black;
+  color: black !important;
   font-weight: 800;
 }
 
@@ -53,7 +53,12 @@ body {
 
 .hero {
   align-items: center;
+  display: flex;
+  flex-flow: column;
   text-align: left;
+}
+
+.hero p {
   text-indent: 1.5rem;
 }
 
@@ -107,6 +112,10 @@ body {
   font-weight: 800;
 }
 
+.make-offer {
+  width: 90%;
+}
+
 p {
   text-indent: 1.5rem;
 }
@@ -143,6 +152,24 @@ p {
 
 .show-benefits ol {
   list-style-type: none;
+}
+
+.social-prove {
+  margin: auto;
+  width: 90%;
+}
+
+.social-prove aside {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.social-prove img {
+  max-width: 70%;
 }
 
 .statistics {
