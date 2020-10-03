@@ -46,7 +46,7 @@ body {
 }
 
 .green-call {
-  color: rgb(36, 172, 36);
+  color: rgb(36, 172, 36) !important;
   font-weight: 800;
 }
 
@@ -116,12 +116,33 @@ p {
   font-size: x-large;
   margin: auto;
   margin-bottom: 20px;
+  text-align: center;
   width: 90%;
 }
 
 .red-call {
-  color: red;
+  color: red !important;
   font-weight: 800;
+}
+
+.show-benefits {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  width: 90%;
+}
+
+.show-benefits h1 {
+  color: black;
+  margin-top: 3%;
+}
+
+.show-benefits p {
+  text-align: justify;
+}
+
+.show-benefits ol {
+  list-style-type: none;
 }
 
 .statistics {
@@ -241,6 +262,10 @@ p {
   margin: auto;
   margin-bottom: 10px;
   width: 90%;
+}
+
+.the-solution p {
+  text-align: center;
 }
 
 .the-solution p:nth-of-type(1) {
