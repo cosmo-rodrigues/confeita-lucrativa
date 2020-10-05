@@ -57,7 +57,6 @@ body {
   flex-flow: column;
   margin: auto;
   text-align: left;
-  width: 90%;
 }
 
 .hero p {
@@ -172,7 +171,7 @@ p {
   width: 90%;
 }
 
-.social-prove aside {
+.social-prove div {
   align-content: center;
   align-items: center;
   display: flex;
@@ -331,7 +330,8 @@ p {
   }
 
   .impact-news  aside {
-    width: 100%;
+    margin-top: 3%;
+    width: 90%;
   }
 
   .impact-news h2, h3, img, p {
@@ -347,19 +347,43 @@ p {
   }
 
   .impact-news img {
+    align-self: flex-start;
     order: 0;
-    max-width: 36%;
+    width: 40%;
   }
 
   .impact-news .news-content {
     display: flex;
     flex-flow: row-reverse;
+    justify-content: space-around;
     margin-top: 2%;
   }
 
+  .news-content div {
+    margin-right: 3%;
+  }
+
   .news-content .news-text-content {
-    text-align: left;
-    width: 100%;
+    text-align: justify;
+    width: 80%;
+  }
+
+  .show-benefits li {
+    margin: 2% 0;
+    width: 70%;
+  }
+
+  .social-prove aside {
+    margin: 3% 0;
+  }
+
+  .social-prove div {
+    flex-flow: row-reverse;
+  }
+
+  .social-prove div img {
+    margin-left: 2%;
+    width: 30%;
   }
 
   .statistics {
@@ -378,6 +402,14 @@ p {
   .statistics p {
     width: 60%;
     text-align: justify;
+  }
+
+  .statistics .simple-cakes {
+    justify-content: space-around;
+  }
+
+  .statistics .wedding-cakes {
+    justify-content: space-around;
   }
 
   .sucesses-case {
