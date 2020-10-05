@@ -55,7 +55,9 @@ body {
   align-items: center;
   display: flex;
   flex-flow: column;
+  margin: auto;
   text-align: left;
+  width: 90%;
 }
 
 .hero p {
@@ -113,7 +115,22 @@ body {
 }
 
 .make-offer {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   width: 90%;
+}
+
+.make-offer li {
+  list-style: inside url('./imgs/cupcake.png');
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  list-style: none inside;
 }
 
 p {
@@ -148,10 +165,6 @@ p {
 
 .show-benefits p {
   text-align: justify;
-}
-
-.show-benefits ol {
-  list-style-type: none;
 }
 
 .social-prove {
@@ -318,12 +331,11 @@ p {
   }
 
   .impact-news  aside {
-    margin-top: 3%;
-    max-width: 70%;
+    width: 100%;
   }
 
   .impact-news h2, h3, img, p {
-    margin: 1%;
+    margin: 0;
   }
 
   .impact-news h2, h3 {
@@ -339,19 +351,15 @@ p {
     max-width: 36%;
   }
 
-  .impact-news p {
-    margin: 0;
-    padding-left: 12%;
-  }
-
   .impact-news .news-content {
     display: flex;
     flex-flow: row-reverse;
+    margin-top: 2%;
   }
 
   .news-content .news-text-content {
     text-align: left;
-    width: 50%;
+    width: 100%;
   }
 
   .statistics {
