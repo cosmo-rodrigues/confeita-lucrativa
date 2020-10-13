@@ -45,6 +45,19 @@ body {
   width: 90%;
 }
 
+.final-words {
+  text-align: justify;
+  width: 90%;
+}
+
+.guarantees {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+}
+
 .green-call {
   color: rgb(36, 172, 36) !important;
   font-weight: 800;
@@ -122,10 +135,21 @@ body {
   width: 90%;
 }
 
+.make-offer h1, h2, h3, p, img {
+  margin-bottom: 2% !important;
+  margin-top: 2% !important;
+}
+
 .make-offer li {
   list-style: inside url('./imgs/cupcake.png');
   margin: 0;
   padding: 0;
+}
+
+.make-offer .unprice {
+  font-size: 18vh;
+  font-weight: 900;
+  text-decoration: line-through;
 }
 
 ol {
@@ -148,6 +172,19 @@ p {
 .red-call {
   color: red !important;
   font-weight: 800;
+}
+
+.scarcity {
+  text-align: justify;
+  width: 90%;
+}
+
+.seven-days {
+  align-content: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 90%;
 }
 
 .show-benefits {
@@ -318,6 +355,10 @@ p {
   padding-top: 2%;
   text-align: center;
   width: 100%;
+}
+
+.yellow-call {
+  color: yellow !important;
 }
 
  /* View port break point */
