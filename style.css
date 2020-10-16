@@ -267,10 +267,10 @@ p {
 }
 
 .show-benefits {
+  background-color: #e6e0e0;
   display: flex;
   flex-flow: column;
-  margin: auto;
-  width: 90%;
+  padding: 0 5%;
 }
 
 .show-benefits h1 {
@@ -446,6 +446,9 @@ p {
 
  /* View port break point */
 @media screen and (min-width: 769px) {
+  .busines-woman h1 {
+    font-size: 700%;
+  }
   .img-content {
     float: right;
     margin: auto;
