@@ -209,6 +209,10 @@ body {
   padding: 0;
 }
 
+.make-offer p {
+  text-align: justify;
+}
+
 .make-offer .unprice {
   font-size: 500%;
   font-weight: 900;
@@ -487,6 +491,7 @@ p {
 
   .make-offer .american-teacher img {
     border-radius: 20px;
+    margin-right: 2%;
   }
 
   .news-content div {
