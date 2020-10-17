@@ -111,14 +111,6 @@ body {
   width: 90%;
 }
 
-.guarantees .guarantees-days {
-  align-content: center;
-  align-items: center;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-
 .green-call {
   color: rgb(36, 172, 36) !important;
   font-weight: 800;
@@ -197,16 +189,8 @@ body {
   width: 90%;
 }
 
-.make-offer .american-teacher {
-  align-content: center;
-  align-items: center;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-
 .make-offer h1, h2, h3, p, img {
-  margin-bottom: 1% !important;
+  margin-bottom: 2% !important;
   margin-top: 2% !important;
 }
 
@@ -254,6 +238,7 @@ p {
 }
 
 .seven-days {
+<<<<<<< HEAD
   align-items: center;
   background-size: cover;
   background: url('./imgs/woman-smilling.jpeg');
@@ -283,12 +268,12 @@ p {
 }
 
 .seven-days section {
+=======
+>>>>>>> parent of 1a2f532... Guarantees
   align-content: center;
-  color: black;
   display: flex;
   flex-flow: column;
   justify-content: center;
-  margin: auto;
   width: 90%;
 }
 
@@ -324,10 +309,6 @@ p {
 
 .social-prove img {
   max-width: 70%;
-}
-
-.social-prove h1, h2, h3, h4 {
-  margin: 2% 0 !important;
 }
 
 .statistics {
@@ -512,6 +493,7 @@ p {
     margin-top: 2%;
   }
 
+<<<<<<< HEAD
   .make-offer {
     align-items: center;
     display: flex;
@@ -530,6 +512,8 @@ p {
     margin-right: 2%;
   }
 
+=======
+>>>>>>> parent of 1a2f532... Guarantees
   .news-content div {
     margin-right: 3%;
   }
