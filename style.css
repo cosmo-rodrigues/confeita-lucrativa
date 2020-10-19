@@ -40,13 +40,8 @@ body {
   justify-content: space-around;
 }
 
-.center-content {
-  margin: auto;
-  width: 90%;
-}
-
 .click-buy {
-  margin: 3% 0;
+  margin: 3% 2%;
   height: 70%;
 }
 
@@ -58,16 +53,16 @@ body {
   border-radius: 15px;
   box-shadow:inset 0px 1px 0px 0px #fff6af;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-style:normal;
   font-weight: 800;
   height:70px;
-  line-height:50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  line-height:25px;
+  padding-left: 15px;
+  padding-right: 15px;
 	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
-  text-indent:0;
+  text-indent: 0;
 	text-decoration:none;
 	text-align:center;
   text-shadow:0px 1px 0px black;
@@ -247,8 +242,12 @@ p {
 }
 
 .seven-days {
+  background-position: top;
   background-size: cover;
-  background: url('./imgs/woman-smilling.jpeg');
+  background: no-repeat url('./imgs/woman-smilling.jpeg');
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
   width: 100%;
 }
 
@@ -263,23 +262,33 @@ p {
   flex-flow: column;
   justify-content: center;
   margin: auto;
-  width: 90%;
+  text-shadow: #e6e0e0 1px 1px;
+  width: 100%;
 }
 
 .show-benefits {
-  background-color: #e6e0e0;
   display: flex;
   flex-flow: column;
-  padding: 0 5%;
+}
+
+.show-benefits .fa-check {
+  color: red;
+  font-weight: 900;
 }
 
 .show-benefits h1 {
   color: black;
   margin-top: 3%;
+  padding: 1% 5%;
+}
+
+.show-benefits ol {
+  background-color: #e6e0e0;
+  padding: 1% 4%;
 }
 
 .show-benefits p {
-  text-align: justify;
+  text-align: left;
 }
 
 .social-prove {
@@ -412,10 +421,6 @@ p {
   width: 90%;
 }
 
-.title {
-  color: white;
-}
-
 .the-solution {
   display: flex;
   margin: auto;
@@ -435,9 +440,19 @@ p {
   background: linear-gradient(100deg, rgba(113,55,55,1) 0%, rgb(194, 25, 25) 50%, rgba(113,55,55,1) 100%);
   color: white;
   font-size: x-large;
-  padding-top: 2%;
+  padding: 2% 0;
   text-align: center;
   width: 100%;
+}
+
+.top-bar .center-content {
+  margin: auto;
+  width: 90%;
+}
+
+.top-bar .title {
+  color: white;
+  line-height: 4rem;
 }
 
 .yellow-call {
@@ -506,9 +521,9 @@ p {
     width: 80%;
   }
 
-  .show-benefits li {
-    margin: 2% 0;
-    width: 70%;
+  .show-benefits ol {
+    padding: 1% 0;
+    line-height: 2rem;
   }
 
   .social-prove aside {
@@ -611,4 +626,9 @@ p {
     margin: 4% 0 5% 8%;
     width: 45%;
   }
+
+  .top-bar {
+    padding: auto 4%;
+  }
+
 }
