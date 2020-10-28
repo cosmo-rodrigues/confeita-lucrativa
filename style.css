@@ -26,6 +26,7 @@
 
 .busines-woman span {
   font-weight: 900;
+  width: 100%;
 }
 
 .black-call {
@@ -89,7 +90,6 @@ body {
 
 .final-words {
   text-align: justify;
-  width: 90%;
 }
 
 .guarantees {
@@ -97,7 +97,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
 }
 
 .guarantees .guarantees-days {
@@ -106,6 +105,10 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
+}
+
+.gray-call {
+  background-color: rgba(246,246,246,1);
 }
 
 .green-call {
@@ -141,7 +144,6 @@ body {
   display: flex;
   flex-flow: column;
   text-align: justify;
-  width: 90%;
 }
 
 .impact-news h1 {
@@ -182,7 +184,6 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 90%;
 }
 
 .make-offer .american-teacher {
@@ -191,6 +192,10 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
+}
+
+.make-offer .ebooks img {
+  max-width: 400px;
 }
 
 .make-offer h1, h2, h3, p, img {
@@ -222,13 +227,17 @@ p {
   text-indent: 1.5rem;
 }
 
+.red-bkg {
+  background: linear-gradient(100deg, rgba(113,55,55,1) 0%, rgb(194, 25, 25) 50%, rgba(113,55,55,1) 100%);
+  text-align: center;
+}
+
 .read {
   clear: both;
   font-size: x-large;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
-  width: 90%;
 }
 
 .red-call {
@@ -238,7 +247,6 @@ p {
 
 .scarcity {
   text-align: justify;
-  width: 90%;
 }
 
 .seven-days {
@@ -262,8 +270,8 @@ p {
   flex-flow: column;
   justify-content: center;
   margin: auto;
+  padding: 2% 5%;
   text-shadow: #e6e0e0 1px 1px;
-  width: 100%;
 }
 
 .show-benefits {
@@ -283,7 +291,6 @@ p {
 }
 
 .show-benefits ol {
-  background-color: #e6e0e0;
   padding: 1% 4%;
 }
 
@@ -293,7 +300,6 @@ p {
 
 .social-prove {
   margin: auto;
-  width: 90%;
 }
 
 .social-prove div {
@@ -326,7 +332,6 @@ p {
   display: flex;
   flex-flow: column-reverse wrap;
   justify-content: center;
-  width: 80%;
 }
 
 .statistics img {
@@ -356,7 +361,6 @@ p {
   background-color: rgb(252, 255, 51);
   margin: auto;
   padding: 0 8% 15px 8%;
-  width: 100%;
 }
 
 .sucesses-case .case-01, .case-02 {
@@ -397,7 +401,6 @@ p {
   justify-content: center;
   margin: auto;
   margin-top: 15px;
-  width: 100%;
 }
 
 .the-problem .img-content {
@@ -418,14 +421,12 @@ p {
 .the-problem .text-content {
   margin: auto;
   margin-bottom: 20px;
-  width: 90%;
 }
 
 .the-solution {
   display: flex;
   margin: auto;
   margin-bottom: 10px;
-  width: 90%;
 }
 
 .the-solution p {
@@ -459,10 +460,14 @@ p {
   color: yellow !important;
 }
 
+.white-call {
+  color: white !important;
+}
+
  /* View port break point */
 @media screen and (min-width: 769px) {
   .busines-woman h1 {
-    font-size: 700%;
+    font-size: 1000%;
   }
   .img-content {
     float: right;
