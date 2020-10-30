@@ -213,6 +213,14 @@ body {
   text-align: justify;
 }
 
+.make-offer .is-02 {
+  padding: 1% 4%;
+}
+
+.make-offer .sub-benefits img {
+  max-width: 300px;
+}
+
 .make-offer .unprice {
   font-size: 500%;
   font-weight: 900;
@@ -515,6 +523,18 @@ p {
   .make-offer .american-teacher img {
     border-radius: 20px;
     margin-right: 2%;
+  }
+
+  .make-offer .sub-benefits {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .make-offer .sub-benefits li {
+    margin: 3% 0;
+    font-size: large;
+    font-weight: 800;
   }
 
   .news-content div {
