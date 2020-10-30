@@ -528,6 +528,7 @@ p {
   .make-offer .sub-benefits {
     align-items: center;
     display: flex;
+    flex-flow: row-reverse;
     justify-content: center;
   }
 
