@@ -184,6 +184,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  text-align: center;
 }
 
 .make-offer .american-teacher {
@@ -200,7 +201,6 @@ body {
 
 .make-offer h1, h2, h3, p, img {
   margin-bottom: 1% !important;
-  margin-top: 2% !important;
 }
 
 .make-offer li {
@@ -209,12 +209,20 @@ body {
   padding: 0;
 }
 
+.make-offer ul {
+  padding: 0 2%;
+}
+
 .make-offer p {
   text-align: justify;
 }
 
 .make-offer .is-02 {
   padding: 1% 4%;
+}
+
+.make-offer .sub-benefits {
+  text-align: left;
 }
 
 .make-offer .sub-benefits img {
