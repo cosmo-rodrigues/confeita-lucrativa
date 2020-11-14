@@ -107,10 +107,6 @@ body {
   justify-content: center;
 }
 
-.gray-call {
-  background-color: rgba(246,246,246,1);
-}
-
 .green-call {
   color: rgb(36, 172, 36) !important;
   font-weight: 800;
@@ -132,10 +128,11 @@ body {
 .impact-news {
   align-content: center;
   align-items: center;
+  background-color: rgba(246,246,246,1);
   display: flex;
   flex-flow: column;
   justify-content: center;
-  margin: auto;
+  padding: 4% 3%;
 }
 
 .impact-news aside {
@@ -149,7 +146,7 @@ body {
 .impact-news h1 {
   color: black !important;
   font-weight: 900;
-  margin: 2% auto 2% !important;
+  margin: 0 !important;
   text-align: center;
 }
 
@@ -293,6 +290,7 @@ p {
 .show-benefits {
   display: flex;
   flex-flow: column;
+  padding: 0 5%;
 }
 
 .show-benefits .fa-check {
@@ -315,7 +313,9 @@ p {
 }
 
 .social-prove {
+  background-color: rgba(246,246,246,1);
   margin: auto;
+  padding: 2% 4%;
 }
 
 .social-prove div {
@@ -333,6 +333,10 @@ p {
 
 .social-prove h1, h2, h3, h4 {
   margin: 2% 0 !important;
+}
+
+.social-prove .title {
+  text-align: center !important;
 }
 
 .statistics {
@@ -414,6 +418,7 @@ p {
   box-sizing: border-box;
   display: flex;
   flex-flow: column nowrap;
+  font-size: 1.25rem;
   justify-content: center;
   margin: auto;
   margin-top: 15px;
@@ -434,9 +439,14 @@ p {
   margin-top: 20px;
 }
 
+.the-problem .text-botton {
+  padding: 0 4%;
+}
+
 .the-problem .text-content {
   margin: auto;
   margin-bottom: 20px;
+  padding: 0 5%;
 }
 
 .the-solution {
@@ -456,10 +466,14 @@ p {
 .top-bar {
   background: linear-gradient(100deg, rgba(113,55,55,1) 0%, rgb(194, 25, 25) 50%, rgba(113,55,55,1) 100%);
   color: white;
-  font-size: x-large;
-  padding: 2% 0;
+  font-size: large;
+  padding: 2% 4%;
   text-align: center;
   width: 100%;
+}
+
+.top-bar .bolder {
+  font-weight: 900;
 }
 
 .top-bar .center-content {
@@ -494,15 +508,11 @@ p {
 
   .impact-news  aside {
     margin-top: 3%;
-    width: 90%;
+    padding: 0 15%;
   }
 
   .impact-news h2, h3, img, p {
     margin: 0;
-  }
-
-  .impact-news h2, h3 {
-    order: -1;
   }
 
   .impact-news h3 {
@@ -512,14 +522,13 @@ p {
   .impact-news img {
     align-self: flex-start;
     order: 0;
-    width: 40%;
+    width: 35%;
   }
 
   .impact-news .news-content {
     display: flex;
     flex-flow: row-reverse;
     justify-content: space-around;
-    margin-top: 2%;
   }
 
   .make-offer .american-teacher {
@@ -560,8 +569,8 @@ p {
     line-height: 2rem;
   }
 
-  .social-prove aside {
-    margin: 3% 0;
+  .show-benefits section {
+    padding: 0 12%;
   }
 
   .social-prove div {
@@ -571,6 +580,10 @@ p {
   .social-prove div img {
     margin-left: 2%;
     width: 30%;
+  }
+
+  .social-prove {
+    padding: 0 12%;
   }
 
   .statistics {
@@ -633,9 +646,7 @@ p {
 
   .text-content {
     float: left;
-    margin: auto;
-    margin-left: 5%;
-    margin-top: 2%;
+    margin: 2% 0 2% 5%;
     width: 50%;
   }
 
@@ -650,8 +661,13 @@ p {
   .the-problem .img-content {
     display: block;
     float: right;
-    margin: 2% 8% 2% 0;
-    width: 35%;
+    margin: 2% 10% 2% 0;
+    max-width: 30%;
+  }
+
+  .the-problem .text-botton {
+    clear: both;
+    padding: 0 4%;
   }
   
   .the-problem .text-content {
