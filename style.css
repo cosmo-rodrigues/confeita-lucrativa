@@ -190,6 +190,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
+  padding: 0 4%;
 }
 
 .make-offer .ebooks img {
@@ -200,10 +201,18 @@ body {
   margin-bottom: 1% !important;
 }
 
+.make-offer .digital-book img{
+  max-width: 650px;
+}
+
 .make-offer li {
   list-style: inside url('./imgs/cupcake.png');
   margin: 0;
   padding: 0;
+}
+
+.make-offer .red-bkg h2, h3 {
+  padding: 0 4%;
 }
 
 .make-offer ul {
@@ -216,6 +225,10 @@ body {
 
 .make-offer .is-02 {
   padding: 1% 4%;
+}
+
+.make-offer .title-div {
+  padding: 10% 10% !important;
 }
 
 .make-offer .sub-benefits {
@@ -535,11 +548,28 @@ p {
     align-items: center;
     display: flex;
     flex-flow: row;
+    padding: 0 10%;
   }
 
   .make-offer .american-teacher img {
     border-radius: 20px;
     margin-right: 2%;
+  }
+
+  .make-offer .american-teacher p {
+    font-size: larger;
+  }
+
+  .make-offer .digital-book {
+    padding: 2% 12%;
+  }
+
+  .make-offer .digital-book img{
+    max-width: 900px;
+  }
+
+  .make-offer .is-01 {
+    padding: 2% 3%;
   }
 
   .make-offer .sub-benefits {
