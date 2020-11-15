@@ -42,7 +42,6 @@ body {
 }
 
 .click-buy {
-  margin: 3% 2%;
   height: 70%;
 }
 
@@ -105,6 +104,14 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: center;
+}
+
+.guarantees div {
+  padding: 0 4%;
+}
+
+.guarantees .guarantees-days div {
+  padding: 0 4%;
 }
 
 .green-call {
@@ -286,7 +293,7 @@ p {
 
 .scarcity {
   background-color: rgba(246,246,246,1);
-  padding: 0 4%;
+  padding: 3% 4%;
   text-align: center;
 }
 
@@ -527,6 +534,19 @@ p {
   .busines-woman h1 {
     font-size: 1000%;
   }
+
+  .guarantees .guarantees-days {
+    flex-flow: row-reverse;
+  }
+
+  .guarantees .guarantees-days img {
+    max-width: 40%;
+  }
+
+  .guarantees .guara {
+    padding: 0 15%;
+  }
+
   .img-content {
     float: right;
     margin: auto;
@@ -645,7 +665,7 @@ p {
   }
 
   .scarcity {
-    padding: 0 14%;
+    padding: 3% 14%;
     text-align: left;
   }
 
