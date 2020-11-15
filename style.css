@@ -526,7 +526,6 @@ p {
   font-size: large;
   padding: 2% 4%;
   text-align: center;
-  width: 100%;
 }
 
 .top-bar .bolder {
@@ -534,13 +533,12 @@ p {
 }
 
 .top-bar .center-content {
-  margin: auto;
   width: 90%;
 }
 
 .top-bar .title {
   color: white;
-  line-height: 4rem;
+  line-height: 1.4;
 }
 
 .yellow-call {
@@ -805,7 +803,7 @@ p {
   }
 
   .top-bar {
-    padding: auto 4%;
+    padding: 0 4%;
   }
 
 }
