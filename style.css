@@ -88,14 +88,36 @@ body {
 }
 
 .final-words {
-  text-align: justify;
+  background: linear-gradient(100deg, rgba(113,55,55,1) 0%, rgb(194, 25, 25) 50%, rgba(113,55,55,1) 100%);
+  color: white;
+  font-size: x-large;
+  padding: 2% 15%;
+  text-align: left;
+}
+
+.final-words strong {
+  font-weight: 900;
+}
+
+footer {
+  padding: 2%;
+  text-align: center;
 }
 
 .guarantees {
-  align-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.guarantees .guarantees-container {
+  background-color: rgba(246,246,246,1);
+}
+
+.guarantees-container .click-buy {
+  align-self: center;
+  text-align: center;
 }
 
 .guarantees .guarantees-days {
