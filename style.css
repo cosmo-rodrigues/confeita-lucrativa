@@ -219,6 +219,10 @@ body {
   padding: 0;
 }
 
+.make-offer .other-bonus {
+  background: linear-gradient(100deg, rgba(113,55,55,1) 0%, rgb(194, 25, 25) 50%, rgba(113,55,55,1) 100%);
+}
+
 .make-offer .red-bkg h2, h3 {
   padding: 0 4%;
 }
@@ -281,7 +285,9 @@ p {
 }
 
 .scarcity {
-  text-align: justify;
+  background-color: rgba(246,246,246,1);
+  padding: 0 4%;
+  text-align: center;
 }
 
 .seven-days {
@@ -606,6 +612,14 @@ p {
     padding: 2% 3%;
   }
 
+  .make-offer .other-bonus {
+    padding: 5% 13%;
+  }
+
+  .make-offer .other-bonus .title {
+    line-height: 2 !important;
+  }
+
   .make-offer .sub-benefits {
     align-items: center;
     display: flex;
@@ -628,6 +642,11 @@ p {
   .news-content .news-text-content {
     text-align: justify;
     width: 80%;
+  }
+
+  .scarcity {
+    padding: 0 14%;
+    text-align: left;
   }
 
   .show-benefits ol {
