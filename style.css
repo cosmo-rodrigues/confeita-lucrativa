@@ -803,7 +803,12 @@ p {
   }
 
   .top-bar {
-    padding: 0 4%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .top-bar > div {
+    padding: 5% 10%;
   }
 
 }
