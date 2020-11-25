@@ -409,6 +409,7 @@ p {
   display: flex;
   flex-flow: column-reverse wrap;
   justify-content: center;
+  padding: 0 3%;
 }
 
 .statistics img {
@@ -503,13 +504,11 @@ p {
 .the-problem .text-content {
   margin: auto;
   margin-bottom: 20px;
-  padding: 0 5%;
+  padding: 0 3%;
 }
 
 .the-solution {
-  display: flex;
-  margin: auto;
-  margin-bottom: 10px;
+  padding: 1% 4%;
 }
 
 .the-solution p {
@@ -792,7 +791,7 @@ p {
 
   .the-problem .text-botton {
     clear: both;
-    padding: 0 4%;
+    padding: 0 12%;
   }
   
   .the-problem .text-content {
