@@ -46,10 +46,45 @@
   <main class="contact-bg">
 
   <div class="container py-5">
-    <form class="container-fluid d-flex justify-content-center align-items-center">
-      <label class="h3 font-weight-bold mr-1 text-light" for="inputEmail1">Email</label>
-      <input type="email" class="form-control mr-1" id="inputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
-      <button type="submit" class="col-sm-3 w-25 btn btn-primary">Submit</button>
+    <form method="POST" action="newsletter.php" class="container-fluid d-flex justify-content-left row">
+      <label
+        class="col-sm-3 h3 font-weight-bold mr-1 text-light  align-self-end"
+        for="inputEmail1"
+      >
+        Nome
+      </label>
+      <input
+        type="text"
+        name="name"
+        class="col-sm-9 h3 form-control mr-1 justify-content-left"
+        id="inputName"
+        aria-describedby="emailHelp"
+        placeholder="Digite seu nome"
+        autocomplete="on"
+        required data-error="Por favor digite seu nome"
+      >
+      <label
+        class="col-sm-3 h3 h3 font-weight-bold mr-1 text-light"
+        for="inputEmail1"
+      >
+        Email
+      </label>
+      <input
+        type="email"
+        name="email"
+        class="col-sm-9 h3 form-control mr-1"
+        id="inputEmail1"
+        aria-describedby="emailHelp"
+        placeholder="Digite seu email"
+        autocomplete="on"
+        required data-error="Por favor digite um email válido"
+      >
+      <button
+        type="submit"
+        class="col-sm-3 w-25 btn btn-primary"
+      >
+        Submit
+      </button>
     </form>
     <small id="emailHelp" class="form-text text-warning text-left">Nos comprometemos a não compartilhar seu email com terceiros.</small>
   </div>
