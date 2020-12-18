@@ -13,7 +13,7 @@
 .busines-woman h1 {
   font-size: 520%;
   margin: auto;
-  background: url('./imgs/diverse-women.jpeg');
+  background: url('./src/imgs/diverse-women.jpeg');
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -243,7 +243,7 @@ footer {
 }
 
 .make-offer li {
-  list-style: inside url('./imgs/cupcake.png');
+  list-style: inside url('./src/imgs/cupcake.png');
   margin: 0;
   padding: 0;
 }
@@ -322,7 +322,7 @@ p {
 .seven-days {
   background-position: top;
   background-size: cover;
-  background: no-repeat url('./imgs/woman-smilling.jpeg');
+  background: no-repeat url('./src/imgs/woman-smilling.jpeg');
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -737,7 +737,7 @@ p {
   }
 
   .sucesses-case {
-    background-image: url(./imgs/red-velvet-cake.jpeg);
+    background-image: url(./src/imgs/red-velvet-cake.jpeg);
     flex-flow: row;
   }
 
