@@ -1,23 +1,23 @@
 <?php
 
-if(isset($_POST[email]) && !empty($_POST[email])) {
-  
-  $nome = addslashes($_POST[name]);
-  $email = addslashes($_POST[email]);
+  if(isset($_POST['email'])) {
+
+    $name = addslashes($_POST['name']);
+    $email = addslashes($_POST['email']);
+
+  };
 
   $to = "contato@allcursoonline.com";
-  $subject = "Newsletter - Confeitaria Lucrativa";
-  $body = "Name".$nome. "\r\n".
-          "Email ".$email. "\r\n".
-          "Mensagem: Desejo receber novidades nesse email.";
+  $subject = "Inscrição de ".$name;
+  $body = "Nome: ".$name."\r\n".
+          "Email: ".$email."\r\n".
+          "Desejo receber emails promocionais";
   $header = "From:contato@allcursoonline.com"."\r\n".
-            "Reply-to:".$email."\r\n".
-            "X-Mailer:PHP/".phpversion();
-
+            "Reply-To :".$email."\r\n".
+            "X=Mailer:PHP/".phpversion();
   if(mail($to, $subject, $body, $header)) {
-    echo("Cadastro efetuado com sucesso!");
+    echo("Cadastro realizado com sucesso. Parabéns!");
   } else {
-    echo("Falaha ao cadastrar, tente novamente!");
-  }
-};
+    echo("Falha no cadastro. Por favor, tente novamente!");
+  };
 ?>
