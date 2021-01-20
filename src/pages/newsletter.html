@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel='stylesheet' href='../libs/bulma.min.css'>
-  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="newsletter.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Confeitaria Lucrativa</title>
@@ -13,90 +13,125 @@
     }
   </style>
 </head>
-<body>
-  <header class="header">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="../../index.html">Confeitaria Lucrativa</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto justify-content-end w-100">
-          <li class="nav-item">
-            <a class="nav-link" href="../../index.html">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="./newsletter.html">Newsletter<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./privacity.html">Pivacidade</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./termos.html">Termos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contato</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<body class="m-0 p-0">
+  <header class="container-fluid text-light text-center p-4">
+    <h1 class="h3">
+      Descubra o Segredo para Lucrar de Forma Surpreendente com a Confeitaria, mesmo que você  não saiba a diferença da gema para a clara!
+    </h1>
   </header>
 
-  <main class="contact-bg">
-
-  <div class="container py-5">
-    <form method="POST" action="./newsletter.php" class="container-fluid d-flex justify-content-left row">
-      <label
-        class="col-sm-3 h3 font-weight-bold mr-1 text-light  align-self-end"
-        for="inputEmail1"
-      >
-        Nome
-      </label>
-      <input
-        type="text"
-        name="name"
-        class="col-sm-9 h3 form-control mr-1 justify-content-left"
-        id="inputName"
-        aria-describedby="emailHelp"
-        placeholder="Digite seu nome"
-        autocomplete="on"
-        required data-error="Por favor digite seu nome"
-      >
-      <label
-        class="col-sm-3 h3 h3 font-weight-bold mr-1 text-light"
-        for="inputEmail1"
-      >
-        Email
-      </label>
-      <input
-        type="email"
-        name="email"
-        class="col-sm-9 h3 form-control mr-1"
-        id="inputEmail1"
-        aria-describedby="emailHelp"
-        placeholder="Digite seu email"
-        autocomplete="on"
-        required data-error="Por favor digite um email válido"
-      >
-      <button
-        type="submit"
-        class="col-sm-3 w-25 btn btn-primary"
-      >
-        Submit
-      </button>
-    </form>
-    <small id="emailHelp" class="form-text text-warning text-left">Nos comprometemos a não compartilhar seu email com terceiros.</small>
-  </div>
+  <main>
+    <div class="container-fluid m-0 p-0 bg-light px-3">
+      <div class="d-flex row justify-content-center align-items-center py-5">
+        <img
+          src="../imgs/confeitaria-lucrativa-tablet.png"
+          alt="Método Confeitaria Lucrativa"
+          class="col-sm-6 col-md-6"
+        >
+        <div class="col-sm-12 col-md-6">
+          <ol>
+            <li class="my-3">Descubra o "erro invisível" que sabota 99% dos negócios, antes mesmo deles começarem </li>
+            <li class="my-3">O programa que te ajuda a sair do absoluto zero, para um negócio lucrativo na confeitaria</li>
+            <li class="my-3">Mesmo que você nunca tenha acertado nem mesmo um bolo de caixinha </li>
+          </ol>
+          <div>
+            <form method="POST" action="./newsletter.php"  class="d-flex justify-content-end row px-3">
+              <label
+                class="col-sm-3 h3 font-weight-bold mr-1 text-light  align-self-end"
+                for="inputEmail1"
+              >
+              </label>
+              <input
+                type="text"
+                name="name"
+                class="col-sm-9 h3 form-control mr-1 justify-content-left"
+                id="inputName"
+                aria-describedby="emailHelp"
+                placeholder="Digite seu nome"
+                autocomplete="on"
+                required data-error="Por favor digite seu nome"
+              >
+              <label
+                class="col-sm-3 h3 h3 font-weight-bold mr-1 text-light"
+                for="inputEmail1"
+              >
+              </label>
+              <input
+                type="email"
+                name="email"
+                class="col-sm-9 h3 form-control mr-1"
+                id="inputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Digite seu melhor email"
+                autocomplete="on"
+                required data-error="Por favor digite um email válido"
+              >
+              <div class="col-sm-10 col-md-10 col-lg-9 click-buy">
+                <button type="submit" class="click-buy-button btn btn-lg btn-block">Quero Acessar Agora</button>
+              </div>
+            </form>
+            <small id="emailHelp" class="form-text text-black text-right">
+              <i class="fas fa-lock"></i>
+              Você está seguro(a) conosco. Nos comprometemos a não compartilhar seu email com terceiros.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <p class="text-light text-center h3 p-3">
+        Conheça agora A Metodologia Comprovada de Confeitaria que te ajuda a sair do absoluto zero, para um Negócio Lucrativo. Mesmo que nunca tenha acertado nem mesmo um bolo de caixinha!
+      </p>
+      <div class="container py-5">
+        <form method="POST" action="./newsletter.php" class="container-fluid d-flex row justify-content-center align-items-center m-auto row">
+          <label
+            class="col-sm-3 h3 font-weight-bold mr-1 text-light  align-self-end"
+            for="inputEmail1"
+          >
+          </label>
+          <input
+            type="text"
+            name="name"
+            class="col-sm-9 h3 form-control mr-1 justify-content-left"
+            id="inputName"
+            aria-describedby="emailHelp"
+            placeholder="Digite seu nome"
+            autocomplete="on"
+            required data-error="Por favor digite seu nome"
+          >
+          <label
+            class="col-sm-3 h3 h3 font-weight-bold mr-1 text-light"
+            for="inputEmail1"
+          >
+          </label>
+          <input
+            type="email"
+            name="email"
+            class="col-sm-9 h3 form-control mr-1"
+            id="inputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Digite seu melhor email"
+            autocomplete="on"
+            required data-error="Por favor digite um email válido"
+          >
+          <div class="col-sm-10 col-md-10 col-lg-9 click-buy">
+            <button type="submit" class="click-buy-button btn btn-lg btn-block">Quero Acessar Agora</button>
+          </div>
+        </form>
+        <small id="emailHelp" class="form-text text-light text-left">
+          <i class="fas fa-lock"></i>
+          Você está seguro(a) conosco. Nos comprometemos a não compartilhar seu email com terceiros.</small>
+      </div>
+    </div>
+  
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
 </main>
-<footer class="bg-dark text-warning">
-  <h1 class='subtitle is-02  text-light'>&copy; 2020 allcursoonline.com - Todos os direitos reservados</h1>
-  <h3><a href="./privacity.html">Política de Privacidade</a> - <a href="./termos.html">Termos</a> - <a href="./contact.html">Contato</a></h3>
+<footer class="footer bg-light p-3 text-center">
+  <h3 class="h5">&copy; 2020 allcursoonline.com - Todos os direitos reservados</h3>
+  <h3 class="h5"><a href="./privacity.html">Política de Privacidade</a> - <a href="./termos.html">Termos</a> - <a href="./contact.html">Contato</a></h3>
 </footer>
 </body>
 </html>

@@ -1,0 +1,51 @@
+body {
+    background: linear-gradient(100deg, rgba(113,55,55,1) 0%, rgb(194, 25, 25) 50%, rgba(113,55,55,1) 100%);
+    color: white;
+    font-size: large;
+    padding: 2% 4%;
+    text-align: center;
+}
+
+main {
+  height: 100vh;
+}
+
+.like {
+  border-radius: 70px;
+  height: 10%;
+  width: 10vh;
+}
+
+@media screen and (min-width: 600px) {
+ 
+  .saudation {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+  }
+
+  .saudation p {
+    width: 50%;
+  }
+
+  .saudation img {
+    width: 70%;
+  }
+
+  .rounded {
+    height: 600px;
+    width: 100%;
+  }
+
+  .rounded p {
+    font-size: 1.1rem;
+    margin-right: 5%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .rounded p {
+    font-size: 1.4rem;
+    margin-right: 5%;
+  }
+}
